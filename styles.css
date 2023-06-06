@@ -23,12 +23,29 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
+  border-radius: 10px;
+  background-color: #12f2f1;
+  padding: 10px;
 }
 
 .prev {
   left: 10px;
+  border-radius: 10px;
+  background-color: #12f2f1;
+  padding: 10px;
 }
 
 .next {
   right: 10px;
+}
+
+
+@media (max-width: 900px){
+  .slider{
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px){
+  .slider h2{}
 }
